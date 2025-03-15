@@ -8774,7 +8774,7 @@ h1, h2, h3, h4, h5,
     color: rgba(0, 0, 0, 0.6);
     color: #3e64ff; }
   .resume-wrap h2 {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 700; }
   .resume-wrap .position {
     font-size: 18px;
@@ -8786,6 +8786,24 @@ h1, h2, h3, h4, h5,
     font-weight: 700;
     color: #D3D3D3;
   }
+
+  .resume-Intro-text {
+    font-size: 15px;
+    color: #C0C0C0;
+    width: 660px;
+    word-break: break-all;
+  }
+
+  .resume-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+  }
+
+  .resume-layout div {
+    color: black;
+  }
+
 .ftco-partner {
   padding: 4em 0 !important; }
   .ftco-partner .partner {
