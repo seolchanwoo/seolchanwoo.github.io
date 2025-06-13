@@ -66,13 +66,13 @@
 		</div>
 		</div>
 
-		<!-- 마우스 힐 텍스트 -->		
+		<!-- 마우스 힐 텍스트		
 		<div class="mouse">		
 			<span class="mouse-text">마우스를 내려 제 포트폴리오 구경해보세요!</span>
 			<a href="#" class="mouse-icon">
 				<div class="mouse-wheel"><span class="ion-ios-arrow-round-down"></span></div>
 			</a>
-		</div>
+		</div> -->
 
 	</section>
 
@@ -83,10 +83,13 @@
 			<div class="Introduce">
 				<h2>About Me</h2>
 
-				<span class="Introduce-text">저는 도전을 즐기는 개발자 입니다. 떠올린 아이디어를 실행에 옮겨 무언가를 만드는 것을 좋아하며, 앞으로도 끊임없이 도전하고 성장하고 싶습니다
-					나는 머릿속에서 떠오른 아이디어나 개념을 단순히 생각에 그치는 것이 아니라, 실제로 구체화하고 구현해보는 과정을 중요하게 여깁니다
-					때로는 쓸모없어 보이는 것일지라도, 직접 만들어보면서 생각을 정리하고, 개선점을 찾아가며 더 나은 결과물을 만들어내는 과정을 즐긴다.
-					개발자의 가치는 단순히 정답을 찾아가는 것이 아니라, 작은 아이디어라도 직접 구현하며 실체화하고, 그 과정에서 배우고 성장하는 데 있다고 생각한다.
+				<span>의사소통</span>
+				<ul>
+					<li>원활한 커뮤니케이션을 통해 팀원들과 적극적으로 피드백을 주고받으며, 사용자 중심의 UI를 완성도 높게 구현하는걸 좋아합니다.</li>
+				</ul>
+				<span class="Introduce-text">
+					프론트엔드의 매력?
+					은근 나 글적는거 재능 있을지도
 				</span>
 			</div>
 			<div class="under-line">
@@ -107,7 +110,7 @@
 							<h1 class="big">About</h1>
 							<ul class="about-info mt-4 px-md-0 px-2">
 								<li class="d-flex"><span>Name:</span> <span>설찬우</span></li>
-								<li class="d-flex"><span>Address:</span> <span>부산광역시 사상구 주례동</span></li>
+								<li class="d-flex"><span>Address:</span> <span>부산광역시 사상구</span></li>
 								<li class="d-flex"><span>Email:</span> <span>cksdn1048@naver.com</span></li>
 								<li class="d-flex"><span>Phone: </span> <span>+82-10-2510-9092</span></li>
 							</ul>
@@ -142,7 +145,7 @@
 					<div id="page-1" class="page one">
 						<h2 id="projects-section" class="heading">Projects</h2>
 						<div class="resume-wrap d-flex ftco-animate">
-							<div class="text pl-3 flex-column">
+							<br class="text pl-3 flex-column">
 								<div class="flex-column resume-layout">
 									<h2>혼자 취업.이직 준비 할려니 어렵다고? 우리가 도와줄게! 맞춤 멘토링 플랫폼 <span class="text-name">어텝터스</span></h2>
 									
@@ -155,10 +158,61 @@
 								</div>
 								<div>Sklils: <span class="ml-4">React,   Typescript,   Next.js,  TailWind</span>
 								</div>
-								<div> <b class="text-dark">주요 기능 : </b> 메인 페이지, 상품결제, 멘토 상세페이지,좋아요 페이지
-									확인, 예약 관리, 결제 </div>
-								</div>
 								
+								<!-- 프로젝트 개요 및 경험 섹션-->
+								<div class="common_layout">
+									<span class="OverView-title">프로젝트 개요 </span>
+									<div>
+										<span>대용량 트래픽을 처리할 수 있는 구조와 많은 사용자가 실제로 활용할 수 있는 서비스를 고민한 끝에, 실질적인 도움이 필요한 취업 준비생들을 위한 멘토링 서비스를 기획하게 되었습니다.
+										취업 준비생들이 부족한 부분을 보완하고 새로운 정보를 얻을 수 있도록 돕는 플랫폼을 만드는 것이 프로젝트의 주요 목표였습니다.
+										</span>
+										
+										<ul class="common_layout">
+											<li>
+												멘토링은 화상통화이며 1:1 또는 1:N으로 진행이 됩니다.
+											</li>
+
+											<li>
+												화상통화 뿐 만 아니라 메인 홈페이지에서 현재 인기 중인 멘토 또는 멘토링을 확인 할 수 있습니다. 디자인이 이쁩니다<div class=""></div>
+											</li>
+
+											<li>
+												멘토 상세페이지로 현재 진행 중인 멘토링 및 관한 리뷰 확인 할 수 있습니다.
+											</li>
+
+											<li>
+											 이력서 또는 포트폴리오를 올리면 ChatGpt API로 연결되어 분석 후 피드백을 제공합니다.
+											</li>
+											
+										</ul>
+									</div>
+								</div>
+								<!-- 프론트 경험 정리 -->
+								<div class="frontendExperiences_container">
+								<span class="front-font">FrontEnd</span>
+								<ul class="frontendExperience_list">
+									<li>대규모 트래픽에서  발생되는 컴포넌트 구조의 복잡성 문제를 해결하기 위해 Atomic Design을 적용하여 계층적인 컴포넌트 구조를 설계를 했습니다. 이를 통해 필요한 컴포넌트를 빠르게 찾아 수정할 수 있었고 또한 동일한 UI가 필요한 다른 페이지에서 기존에 제작한 컴포넌트를 재사용하면서 Atomic Design의 재사용성과 생산성 향상이라는 장점을 직접 체감할 수 있었습니다.
+								</li>
+
+								<li>규모가 큰 프로젝트 구조에서 발생되는 서비스의 구조 복잡성을 해결하기 위해 Turborepo를 도입하였고, 이를 통해 필요한 서비스만 선택적으로 빌드 및 테스트할 수 있어 Turbo Repo의 장점을 직접 체감할 수 있었습니다.
+								</li>
+								</ul>
+								
+
+									<ul class="frontendExperience_list">
+							
+								<li>메인 페이지</li>
+
+								<!-- <li>인기 멘토링,베스트 멘토링 
+									<h5>어떤 에피소드가 있었냐</h5>
+									<h5>1.지속적인 피드백 및 컨펌</h5>
+									<h5>퍼블리싱을 끝내면 지속적으로 피드백을 받으며 수정 작업을 했습니다.</h5>
+								<span>메인 페이지 작업할때 컴포넌트란 개념이 익숙하지 않아서
+									코드의 가독성이 떨어졌었다. -> 반복된 코드를 줄일 수 있었다?
+								</span>
+								</li> -->
+								</ul>
+								</div>
 							</div>
 						</div>
 					</div>

@@ -9822,6 +9822,44 @@ textarea.form-control {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
 
+/* 프로젝트 개요 */
+.Project_OverView {
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.Project_OverView span {
+  display: block;
+  gap: 10px;
+}
+.OverView-title {
+  font-size: 19px;
+  font-weight: 800;
+  color: black;
+}
+    /* 프론트 경험 정리 클래스 */
+.frontendExperiences_container {
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.common_layout{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.front-font {
+  font-size:25px !important;
+  font-weight: 800;
+  color: black;
+  font-size: 18px;
+}
+
+.block-line {
+  display: block;
+}
 /* .Introduce-section {
   
 } */
