@@ -9833,7 +9833,7 @@ textarea.form-control {
   gap: 10px;
 }
 .OverView-title {
-  font-size: 19px;
+  font-size: 19px !important;
   font-weight: 800;
   color: black;
 }
